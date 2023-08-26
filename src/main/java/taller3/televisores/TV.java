@@ -16,25 +16,25 @@ public class TV {
 		numTV++;
 	}
 	
-	public getMarca() {
+	public Marca getMarca() {
 		return marca;
 	}
 	public void setMarca(Marca marca) {
 		this.marca = marca;
 	}
-	public getCanal() {
+	public int getCanal() {
 		return canal;
 	}
 	public void setCanal(int canal) {
 		this.canal = canal;
 	}
-	public getPrecio() {
+	public int getPrecio() {
 		return precio;
 	}
 	public void setPrecio(int precio) {
 		this.precio = precio;
 	}
-	public getVolumen() {
+	public int getVolumen() {
 		return volumen;
 	}
 	public void setVolumen(int volumen) {
@@ -43,7 +43,7 @@ public class TV {
 	public void setControl(Control control) {
 		this.control = control;
 	}
-	public getControl() {
+	public Control getControl() {
 		return control;
 	}
 	public void turnOn() {
@@ -52,7 +52,7 @@ public class TV {
 	public void turnOff () {
 		estado = false;
 	}
-	public getEstado() {
+	public boolean getEstado() {
 		return estado;
 	}
 	public void canalUp() {
