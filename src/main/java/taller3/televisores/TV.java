@@ -79,5 +79,11 @@ public class TV {
 			volumen--;
 		}
 	}
+	public static int getNumTV() {
+		return numTV;
+	}
+	public void setNumTV(int numk) {
+		numTV = numk;
+	}
 	
 }
