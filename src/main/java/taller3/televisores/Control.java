@@ -4,6 +4,13 @@ public class Control {
 
 	TV tv;
 	
+	public void enlazar(TV tv) {
+		this.tv = tv;
+		tv.setControl(this);
+	}
+	public TV getTv() {
+		return tv;
+	}
 	public void turnOn() {
 		tv.turnOn();
 	}
@@ -22,13 +29,10 @@ public class Control {
 	public void volumenDown() {
 		tv.volumenDown();
 	}
-	public void enlazar(TV tv) {
-		this.tv = tv;
-		tv.setControl(this);
+	public void setCanal(int canal) {
+		tv.setCanal(canal);
 	}
-	public TV getTv() {
-		return tv;
-	}
+	
 	public void setTv(TV tv) {
 		this.tv = tv;
 	}
